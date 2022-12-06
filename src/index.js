@@ -4,7 +4,7 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux'
 
-function reducer(state = 10, action) {
+function reducer(state = 0, action) {
   switch(action.type) {
     case  'INCREMENTAR':
       return state + 1;
